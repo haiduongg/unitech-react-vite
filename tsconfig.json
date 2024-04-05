@@ -23,11 +23,13 @@
     "paths": {
       "@assets/*": ["src/assets/*"],
       "@components/*": ["src/components/*"],
-      "@pages/*": ["src/pages/*"],
+      "@features/*": ["src/features/*"],
       "@ultils/*": ["src/ultils/*"],
+      "@types/*": ["src/types/*"],
+      "@api/*": ["src/api/*"],
       "@constants/*": ["src/constants/*"]
     },
-    "types": ["vite-plugin-svgr/client"]
+    "types": ["vite-plugin-svgr/client", "node"]
   },
   "include": ["src"]
 }

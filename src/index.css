@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    font-size: 15px;
+  }
   /* Import Poppins Fonts */
   @font-face {
     font-family: Poppins;
@@ -71,8 +74,8 @@
     --background: '#fbfaff';
     --foreground: '#1c1b1f';
 
-    --primary: '';
-    --primary-foreground: '';
+    --primary: '#00ABFD';
+    --primary-foreground: '#fbfaff';
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;

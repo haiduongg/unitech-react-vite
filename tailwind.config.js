@@ -8,12 +8,20 @@ export default {
     },
     container: {
       center: true,
-      padding: '20px',
+      padding: '45px',
       screens: {
         '2xl': '1260px',
       },
     },
     extend: {
+      fontSize: {
+        xs: ['0.8rem', { lineHeight: '1.2rem' }],
+        sm: ['1rem', { lineHeight: '1.53rem' }],
+        md: ['1.2rem', { lineHeight: '1.8rem' }],
+        lg: ['1.47rem', { lineHeight: '2.2rem' }],
+        xl: ['1.73rem', { lineHeight: '2.6rem' }],
+        '2xl': ['2.13rem', { lineHeight: '3rem' }],
+      },
       background: 'hsl(var(--background))',
       foreground: 'hsl(var(--foreground))',
       border: 'hsl(var(--border))',

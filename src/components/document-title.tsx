@@ -1,12 +1,15 @@
 import { Helmet } from 'react-helmet';
+import { HelmetProvider } from 'react-helmet-async';
 
 import PropTypes from 'prop-types';
 
 const DocumentTitle = ({ title }: { title: string }) => {
 	return (
-		<Helmet>
-			<title>{title === 'Home page' ? 'UniTech' : `${title} | UniTech Shop`}</title>
-		</Helmet>
+		<HelmetProvider>
+			<Helmet>
+				<title>{title === 'Home page' ? 'UniTech - Technology Shopping' : `${title} | UniTech Shop`}</title>
+			</Helmet>
+		</HelmetProvider>
 	);
 };
 
