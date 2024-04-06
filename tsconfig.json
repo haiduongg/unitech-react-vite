@@ -27,7 +27,8 @@
       "@ultils/*": ["src/ultils/*"],
       "@types/*": ["src/types/*"],
       "@api/*": ["src/api/*"],
-      "@constants/*": ["src/constants/*"]
+      "@constants/*": ["src/constants/*"],
+      "@routes/*": ["src/routes/*"]
     },
     "types": ["vite-plugin-svgr/client", "node"]
   },

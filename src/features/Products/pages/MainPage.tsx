@@ -1,14 +1,13 @@
 // import FilterAction from '@components/landing/FilterAction';
-import Navbar from '@components/navbar';
 import PropertyFilter from '@components/PropertyFilter';
 import Breadcrumbs from '@components/ui/Breadcrumbs';
 import { Button } from '@components/ui/Button';
+import { VscListFlat } from 'react-icons/vsc';
+import Navbar from '@components/navbar';
+import { RxGrid } from 'react-icons/rx';
 import { useState } from 'react';
 
-import { RxGrid } from 'react-icons/rx';
-import { VscListFlat } from 'react-icons/vsc';
-
-export default function Products() {
+export default function MainPage() {
 	const [viewMode, setViewMode] = useState('grid');
 	return (
 		<div className='page'>

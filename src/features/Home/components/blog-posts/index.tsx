@@ -1,6 +1,6 @@
-import { Button } from '@components/ui/Button';
+import Image from '@assets/images/default-image-customer.jpg';
 import { FaChevronRight } from 'react-icons/fa';
-import Image from '@assets/default-image-customer.jpg';
+import { Button } from '@components/ui/Button';
 
 export default function OurBlogPosts() {
 	return (

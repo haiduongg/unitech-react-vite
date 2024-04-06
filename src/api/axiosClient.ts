@@ -1,9 +1,10 @@
-import axios from 'axios';
 import queryString from 'query-string';
+import axios from 'axios';
+
+const apiUrl = import.meta.env.VITE_API_URL;
 
 const axiosClient = axios.create({
-  // baseURL: process.env.REACT_APP_API_URL,
-  baseURL: 'http://localhost:8000/api',
+  baseURL: apiUrl,
   headers: {
     'content-type': 'application/json',
   },

@@ -1,14 +1,7 @@
-import { Button } from '@components/ui/Button';
 import { VNDCurrencyFormat } from '@ultils/vnd-currency-format';
+import { Button } from '@components/ui/Button';
+import { IProduct } from '@api/productApi';
 import { Link } from 'react-router-dom';
-
-interface IProduct {
-	image: string;
-	name: string;
-	desc: string;
-	price: string;
-	path: string;
-}
 
 export default function ProductCard({ product }: { product: IProduct }) {
 	return (
